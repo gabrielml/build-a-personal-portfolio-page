@@ -58,3 +58,36 @@ a {
     text-decoration: none;
     color: var(--main-white);
 }
+
+
+/* *********** Navigation Bar *********** */
+
+#navbar {
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+ul {
+    display: flex;
+}
+
+#navbar li {
+    margin-right: 2rem;
+}
+
+#navbar li a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
+}
+
+#navbar li a:hover {
+    background-color: var(--main-blue);
+}
