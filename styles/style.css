@@ -157,3 +157,42 @@ ul {
     border-radius: 10px; /* FIXME: Delete please border & border-radius. Use only to make test! */
 }
 
+/* ******* Footer section ******* */
+footer {
+    font-weight: lighter;
+    background:var(--main-gray);
+    border-top: 4px solid var(--main-red);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer p > a {
+    color: green;
+}
+
+.footer-contact {
+    animation-duration: 10s;
+    animation-name: flashing-light;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes flashing-light {
+    from{
+        color: gold;
+    }
+
+    50%{
+        color:orangered;
+    }
+    to {
+        color: gold;
+
+    }
+}
+
+
+
