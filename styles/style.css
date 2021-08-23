@@ -72,6 +72,7 @@ a {
 
 ul {
     display: flex;
+    margin:0%;
 }
 
 #navbar li {
@@ -86,6 +87,7 @@ ul {
 
 #navbar li a:hover {
     background-color: var(--main-blue);
+    border-radius: 5px;
 }
 
 
