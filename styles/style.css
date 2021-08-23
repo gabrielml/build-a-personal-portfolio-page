@@ -92,7 +92,6 @@ ul {
 
 
 /* ******* Welcome section ******* */
-
 #welcome-section {
     display: flex;
     flex-direction: column;
@@ -111,6 +110,8 @@ ul {
     font-weight: 200;
     font-style: italic;
     color: var(--main-red);
+    animation: flashing-light 10s infinite;
+}
 
 /* ******* Projects section ******* */
 #projects {
