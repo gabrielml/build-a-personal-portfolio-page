@@ -17,9 +17,7 @@ html {
     scroll-behavior: smooth;
 }
 
-
 /* ******* Base styles ******* */
-
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
@@ -55,9 +53,7 @@ a {
     color: var(--main-white);
 }
 
-
 /* ******* Navigation Bar ******* */
-
 #navbar {
     left: 0;
     display: flex;
@@ -89,7 +85,6 @@ ul {
     background-color: var(--main-blue);
     border-radius: 5px;
 }
-
 
 /* ******* Welcome section ******* */
 #welcome-section {
@@ -206,8 +201,6 @@ ul {
 .btn {
     display: inline-block;
     padding: 1rem 2rem;
-    border: 2px solid red;
-    border-radius: 10px; /* FIXME: Delete please border & border-radius. Use only to make test! */
 }
 
 /* ******* Footer section ******* */
@@ -246,6 +239,3 @@ footer p > a {
 
     }
 }
-
-
-
