@@ -239,3 +239,66 @@ footer p > a {
 
     }
 }
+
+/* ******* MEDIA QUERIES ******* */
+/* For tablets */
+@media only screen and (max-width: 800px){
+/* @media contact section */
+    #contact {
+        height: 70vh;
+    }
+}
+/* For mobile phones */
+@media only screen and (max-width: 400px){
+    /* @media projects section */
+    .project-image {
+        height: calc(100% - 8.8rem);
+    }
+
+    /* @media contact section */
+    #contact {
+        height: 76vh;
+    }
+    .contact-section-links {
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+
+    /* @media footer section */
+    footer p {
+        margin-top: 6px;
+        margin-bottom: 1px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    /* @media navigation bar */
+    #navbar li a {
+        padding: 1rem;
+    }
+    /* @media projects section */
+    #projects {
+        padding: 5rem 2rem;
+    }
+    .project-image {
+        height: calc(100% - 8.8rem);
+    }
+    /* @media contact section */
+    #contact {
+        height: 75vh;
+    }
+    .contact-section-links {
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+    .btn {
+        padding: 0rem 2rem 1rem 2rem;
+    }
+    /* @media footer section */
+    footer {
+        padding: 0rem 1rem;
+    }
+    footer p {
+        margin-top: 6px;
+        margin-bottom: 1px;
+    }
+}
